@@ -38,7 +38,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Idk",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"LAYERS"}
+      Key = {"WindsOfFjords"}
    }
 })
 
