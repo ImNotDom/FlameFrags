@@ -10,10 +10,10 @@ local Window = Rayfield:CreateWindow({
    Icon = 16310770488, -- Use 0 for no icon
    LoadingTitle = "REQUIRES DOUBLE CHEESEBURGER GAMEPASS",
    LoadingSubtitle = "made by ohdbloxguy232",
-   ShowText = "ItemGiver.lua", -- for mobile users to unhide rayfield, change if you'd like
-   Theme = "Default",
+   ShowText = "hi", -- for mobile users to unhide rayfield, change if you'd like
+   Theme = "AmberGlow",
 
-   ToggleUIKeybind = "L",
+   ToggleUIKeybind = "C",
 
    DisableRayfieldPrompts = true,
    DisableBuildWarnings = false,
@@ -69,6 +69,18 @@ local Button = Tab:CreateButton({
    Callback = function()
 local args = {
 	"IQ Omega",
+	149827570
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unpack(args))
+      print("button clicked")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "IQ 1",
+   Callback = function()
+local args = {
+	"IQ 1",
 	149827570
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unpack(args))
