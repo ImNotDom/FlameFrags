@@ -1,19 +1,20 @@
 --hello skids
---what do you think you're doing here brother
---if youre seeing the source for this, youre probably looking for something
+--what do you think you're doing here
+--if youre looking at this, youre probably looking for something
+--this is private anyways why am i writing this
 
 --https://docs.sirius.menu/rayfield
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "ItemGiver.exe",
-   Icon = 16310770488, -- Use 0 for no icon
+   Icon = 0, -- Use 0 for no icon
    LoadingTitle = "REQUIRES DOUBLE CHEESEBURGER GAMEPASS",
    LoadingSubtitle = "made by ohdbloxguy232",
-   ShowText = "hi", -- for mobile users to unhide rayfield, change if you'd like
+   ShowText = "Phantox", -- for mobile users to unhide rayfield, change if you'd like
    Theme = "AmberGlow",
 
-   ToggleUIKeybind = "C",
+   ToggleUIKeybind = "L",
 
    DisableRayfieldPrompts = true,
    DisableBuildWarnings = false,
@@ -32,10 +33,10 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true,
    KeySettings = {
-      Title = "contact owner to get key",
-      Subtitle = "i was here",
-      Note = "GET KEY FROM SCRIPT OWNER (find it yourself)",
-      FileName = "Idk",
+      Title = "security",
+      Subtitle = "hi there",
+      Note = "this is security because yes",
+      FileName = "hi",
       SaveKey = true,
       GrabKeyFromSite = false,
       Key = {"WindsOfFjords"}
@@ -46,7 +47,7 @@ local Tab = Window:CreateTab("very rare and gamepass item", 4483362458) -- Title
 local Section = Tab:CreateSection("Careful using this as you are very easy to be suspected by OG players")
 
 Rayfield:Notify({
-   Title = "DISCLAIMER (READ)",
+   Title = "READ THIS DUDEEEEEEE",
    Content = "needs double cheeseburger gamepass for everything to work, also don't use cosmic and iq omega (f3x too) on public cuz you might get banned, i need to stop yapping (i was here)",
    Duration = 13,
    Image = "home",
@@ -113,7 +114,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unp
 })
 
 local Button = Tab:CreateButton({
-   Name = "100 dec",
+   Name = "100 DEC YEAHHH",
    Callback = function()
 local args = {
 	"IQ 100 Decillion Trophy",
@@ -197,7 +198,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unp
 })
 
 local Button = Tab:CreateButton({
-   Name = "cheesey burger",
+   Name = "titanic cheeseburger",
    Callback = function()
 local args = {
 	"ultimate cheesey",
@@ -209,7 +210,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unp
 })
 
 local Button = Tab:CreateButton({
-   Name = "Emerald ship",
+   Name = "Emerald Spaceship",
    Callback = function()
 local args = {
 	"EmeraldSpaceship",
@@ -245,7 +246,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unp
 })
 
 local Button = Tab:CreateButton({
-   Name = "IQ poopillion variant 2",
+   Name = "IQ poopillion diarrhea",
    Callback = function()
 local args = {
 	"IQ poopillion diarrhea",
@@ -257,7 +258,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unp
 })
 
 local Button = Tab:CreateButton({
-   Name = "IQ poopillion variant 3",
+   Name = "IQ poopy",
    Callback = function()
 local args = {
 	"IQ poopy",
@@ -477,6 +478,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unp
 })
 
 local Tab = Window:CreateTab("RISKY WEAPONS", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("some of these is dangerous (like laser scythe, infinity gauntlet and redstone sword)")
 
 local Button = Tab:CreateButton({
    Name = "release red lasers",
