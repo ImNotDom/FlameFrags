@@ -569,9 +569,11 @@ local Tab = Window:CreateTab("Credits", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("these are me and someone who helped me make this")
 
-local Label = Tab:CreateLabel("@ohdbloxguy232     Script Maker", 0, Color3.fromRGB(71, 71, 71), false)
+local Label = Tab:CreateLabel("@ohdbloxguy232     Script Builder", 0, Color3.fromRGB(71, 71, 71), false)
 
-local Label = Tab:CreateLabel("@WHYDIDYOULOBOTOMIZEME    Vulnerability Founder", 0, Color3.fromRGB(71, 71, 71), false)
+local Label = Tab:CreateLabel("@WHYDIDYOULOBOTOMIZEME    Exploit Founder", 0, Color3.fromRGB(71, 71, 71), false)
+
+local Label = Tab:CreateLabel("You    Using the exploit", 0, Color3.fromRGB(71, 71, 71), false)
 
 
 -- skids can see this
