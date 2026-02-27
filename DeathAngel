@@ -93,7 +93,7 @@ local Button = Tab:CreateButton({
    Name = "IQ 1",
    Callback = function()
 local args = {
-	"IQ 1",
+	"IQ 1 Trophy",
 	149827570
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unpack(args))
