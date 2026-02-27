@@ -66,6 +66,18 @@ game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unp
 })
 
 local Button = Tab:CreateButton({
+   Name = "IQ 1 Trigentillion",
+   Callback = function()
+local args = {
+	"IQ 1 Trigentillion",
+	149827570
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unpack(args))
+      print("button clicked")
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "IQ Omega",
    Callback = function()
 local args = {
