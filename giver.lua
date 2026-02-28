@@ -7,7 +7,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "ItemGiver.exe",
+   Name = "Phantox",
    Icon = 0, -- Use 0 for no icon
    LoadingTitle = "REQUIRES DOUBLE CHEESEBURGER GAMEPASS",
    LoadingSubtitle = "made by ohdbloxguy232",
