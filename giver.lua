@@ -577,7 +577,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Purchasing"):InvokeServer(unp
    end,
 })
 
-local Tab = Window:CreateTab("Credits", 4483362458) -- Title, Image
+local Tab = Wandow:CreateTab("Credits", 4483362458) -- Title, Image
 
 local Section = Tab:CreateSection("these are me and someone who helped me make this")
 
