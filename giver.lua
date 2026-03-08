@@ -6,7 +6,7 @@
 --https://docs.sirius.menu/rayfield
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
-local Wandow = Rayfield:CreateWindow({
+local Window = Rayfield:CreateWindow({
    Name = "Phantox",
    Icon = 0, -- Use 0 for no icon
    LoadingTitle = "REQUIRES DOUBLE CHEESEBURGER GAMEPASS",
