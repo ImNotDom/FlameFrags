@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick("The script is not scripting")
+game.Players.LocalPlayer:Kick("The script is not scripting!")
